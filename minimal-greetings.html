@@ -15,7 +15,7 @@
         }
 
         .widget {
-            padding: 5px 5px ;
+            padding: 10px 5px ;
             color: #000000;
             display: flex;
             justify-content:center;
@@ -23,9 +23,9 @@
             flex-direction: column;
             max-width: 95%;
             margin: auto;
-            border: 1px solid #726d67;
-            border-radius: 5px;
-            box-shadow: 0px 0px 0px 0px #726d67;
+            border: 1px solid #808080;
+            border-radius: 3px;
+            box-shadow: 0px 0px 0px 0px #808080;
 
         }
 
@@ -38,12 +38,12 @@
         .date {
       
             font-family: monospace;
-            font-size: 1em;
+            font-size: 1.2em;
         }
 
         .clock {
             font-family: monospace;
-            font-size: 1em;
+            font-size: 1.2em;
         }
 
         .time {
@@ -95,7 +95,7 @@
 
 function dispalyGreetings(today){
         hrs = today.getHours();
-        name="Mel"
+        name=""
         if (hrs < 12)
             greet = 'Good Morning  '+name;
         else if (hrs >= 12 && hrs <= 17)
